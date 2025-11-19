@@ -1,0 +1,75 @@
+body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .form-section {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin-bottom: 10px;
+        }
+
+        .form-section input,
+        .form-section button {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-section button {
+            background-color: #f63bda;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        section button {
+            padding: 8px;
+            border-radius: 4px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+
+        .blue-btn {
+            background-color: #f63ba8;
+        }
+
+        .red-btn {
+            background-color: #ca44ef;
+        }
+
+        #todo-list {
+            list-style: none;
+            padding: 0;
+            width: 300px;
+        }
+
+        #todo-list li {
+            padding: 5px 0;
+        }
+
+        #todo-list p {
+            margin: 0;
+        }
+
+        footer {
+            margin-top: 20px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 5px 0;
+        }

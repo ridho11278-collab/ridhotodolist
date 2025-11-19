@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Yama Apps muhammad ridho</title>
+<link rel="stylesheet" href="style.css">
+
+       
+</head>
+
+<body>
+    <header>
+        <h1>Todo List Apps</h1>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <input type="text" id="todo-input" placeholder="Enter a new todo item">
+            <input type="date" id="todo-date">
+            <button type="button" onclick="addTodo();">Add Todo</button>
+        </section>
+
+        <section class="flex pt-2 justify-between">
+            <button class="blue-btn" onclick="filterTodos();">Filter Todos</button>
+            <button class="red-btn" onclick="clearTodos();">Clear All Todos</button>
+        </section>
+
+        <section class="pt-2">
+            <header>
+                <h2>List of Todos</h2>
+            </header>
+            <ul id="todo-list">
+                <li>No todos available</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Todo List Yama Apps</p>
+    </footer>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
